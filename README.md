@@ -2,6 +2,23 @@
 
 Dashboard interactivo de análisis de defunciones no fetales en Colombia para el año 2019, construido con **Python + Plotly Dash**.
 
+Introducción del proyecto: 
+ Se desarrolla una aplicación web dinámica utilizando Plotly y Dash en el lenguaje de programación Python. La aplicación integra informes gráficos interactivos que facilitan la interpretación de los datos y permitan una exploración visual intuitiva. Además, se despliega en Render, asegurando su accesibilidad en línea.
+
+Objetivo: Se analiza la mortalidad en Colombia para el año 2019.
+
+Estructura del proyecto: 
+
+
+Requisitos: Librerías y versiones necesarias para ejecutar la aplicación.
+
+Despliegue (por ejemplo, en Render): Pasos seguidos para desplegar la aplicación.
+
+Software: Herramientas utilizadas (Python, Dash, etc.).
+
+Instalación: Instrucciones para clonar el repositorio y ejecutar la aplicación localmente.
+
+
 ## 📊 Visualizaciones incluidas
 
 | Gráfico | Descripción |

@@ -6,7 +6,7 @@ import os
 
 # ── Load & preprocess data ─────────────────────────────────────────────────
 BASE = os.path.dirname(__file__)
-df = pd.read_parquet(os.path.join(BASE, "data_2019.parquet"))
+df = pd.read_csv(os.path.join(BASE, "data_2019.csv"))
 
 MONTH_NAMES = {
     1: "Ene", 2: "Feb", 3: "Mar", 4: "Abr", 5: "May", 6: "Jun",
