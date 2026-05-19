@@ -8,15 +8,33 @@ Introducción del proyecto:
 Objetivo: Se analiza la mortalidad en Colombia para el año 2019.
 
 Estructura del proyecto: 
-
+mortalidad_colombia_2019/
+├── app.py              ← Aplicación Dash principal
+├── prepare_data.py     ← Script para regenerar el parquet desde Excel
+├── data_2019.parquet   ← Datos procesados (~15 MB, listos para despliegue)
+| se cambia a data_2019.csv por falla en la lectura del parquet
+├── requirements.txt    ← Dependencias exactas
+├── Procfile            ← Para Render / Railway
+├── render.yaml         ← Config automática para Render
+├── runtime.txt         ← Python 3.12
+├── README.md           ← Guía completa
 
 Requisitos: Librerías y versiones necesarias para ejecutar la aplicación.
+ pandas as pd
+ plotly.express as px
+ plotly.graph_objects as go
+ dash import Dash, dcc, html, Input, Output, callback
+ os
 
-Despliegue (por ejemplo, en Render): Pasos seguidos para desplegar la aplicación.
 
-Software: Herramientas utilizadas (Python, Dash, etc.).
+Despliegue: 
 
-Instalación: Instrucciones para clonar el repositorio y ejecutar la aplicación localmente.
+Una vez el repositorio este en GitHub
+render.com → New → Web Service → Connect GitHub
+Render detecta automáticamente el render.yaml
+Haz clic en Deploy — listo.
+
+Software: Herramientas utilizadas (Python, Dash, render, visual studio).
 
 
 ## 📊 Visualizaciones incluidas
